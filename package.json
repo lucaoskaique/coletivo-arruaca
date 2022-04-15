@@ -1,11 +1,14 @@
 {
   "name": "coletivo-arruaca-porto-alegre",
+  "author": "Lucas Kaíque da Silva",
+  "license": "MIT",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "deploy": "yarn build && next export",
     "lint": "eslint src --max-warnings=0",
     "test": "jest --maxWorkers=50%",
     "test:watch": "jest --watch --maxWorkers=25%",
@@ -14,7 +17,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "postinstall": "husky install",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json)\""
   },
   "lint-staged": {
     "src/**/*": [
