@@ -10,6 +10,7 @@
     "start": "next start",
     "deploy": "yarn build && next export",
     "lint": "eslint src --max-warnings=0",
+    "typecheck": "tsc --project tsconfig.json --noEmit",
     "test": "jest --maxWorkers=50%",
     "test:watch": "jest --watch --maxWorkers=25%",
     "test:ci": "jest --runInBand",
@@ -19,6 +20,11 @@
     "postinstall": "husky install",
     "prepare": "husky install",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json)\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "src/**/*": [
