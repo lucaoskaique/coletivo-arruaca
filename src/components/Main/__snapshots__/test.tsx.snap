@@ -5,8 +5,7 @@ exports[`<Main /> should render the heading 1`] = `
   background-color: #ce2024;
   color: #fff;
   width: 100%;
-  height: 100%;
-  padding: 3rem;
+  padding: 5rem;
   text-align: center;
   display: -webkit-box;
   display: -webkit-flex;
@@ -26,17 +25,55 @@ exports[`<Main /> should render the heading 1`] = `
 }
 
 .c1 {
-  margin-top: 3rem;
   width: min(50rem,100%);
+}
+
+.c3 {
+  width: min(50rem,100%);
+}
+
+.c5 {
+  margin-top: 2rem;
+  width: min(50rem,100%);
+  border-radius: 5%;
+}
+
+.c2 {
+  display: inline-block;
+  vertical-align: top;
+  -webkit-animation: zoom-in-zoom-out 1s ease infinite;
+  animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+.c4 {
+  border-radius: 1rem;
 }
 
 <main
   class="c0"
 >
   <img
-    alt="Um desenvolvedor de frente para uma tela com código."
+    alt="Uma caixa de som do lado esquerdo e uma bandeira anarquista do lado direito."
     class="c1"
-    src="/img/arruaca-grave-geral.jpg"
+    src="/img/header-arruaca.png"
   />
+  <div
+    class="c2"
+  >
+    <img
+      alt="Texto estilizado escrito GRAVE GERAL."
+      class="c3"
+      src="/img/gravegeral-arruaça.png"
+    />
+  </div>
+  <div
+    class="c4"
+  >
+    <img
+      alt="QrCode divulgação."
+      class="c5"
+      src="/img/qrcode-arruaca.jpeg"
+    />
+  </div>
 </main>
 `

@@ -1909,6 +1909,18 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@splinetool/react-spline@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@splinetool/react-spline/-/react-spline-2.1.0.tgz#4bbffd44a0c70c4ba44beafae669c18e168a3679"
+  integrity sha512-/LcIo2YO0WxgBaDVGOgxVwVzRr/PgHkq+fgDZ/S4syzF1WLGIlZwwBtn+hmT073sB3Uu62K0RfmRiHqCsOzFkg==
+
+"@splinetool/runtime@^0.9.37":
+  version "0.9.37"
+  resolved "https://registry.yarnpkg.com/@splinetool/runtime/-/runtime-0.9.37.tgz#060ac332b6d8f9e58c086ac8c429025db8c27f4d"
+  integrity sha512-MKj8q9dYiOotE+pZKmwVoPoiKQrIVyzN6uep4zzu5g7Cl5EyTJ8Je7tvuCCdqcRJZW47yiS+e8TvbIR0D541eQ==
+  dependencies:
+    on-change "^4.0.0"
+
 "@storybook/addon-actions@6.4.17":
   version "6.4.17"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-6.4.17.tgz#93a8190b07f776ba4670cb7021adc81ff7a094ad"
@@ -9954,6 +9966,11 @@ objectorarray@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/objectorarray/-/objectorarray-1.0.5.tgz#2c05248bbefabd8f43ad13b41085951aac5e68a5"
   integrity sha512-eJJDYkhJFFbBBAxeh8xW+weHlkI28n2ZdQV/J/DNfWfSKlGEf2xcfAbZTv3riEXHAhL9SVOTs2pRmXiSTf78xg==
+
+on-change@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/on-change/-/on-change-4.0.0.tgz#26570babb7170f28be5ea0ba00a284a5a343a472"
+  integrity sha512-PTu7C9Jsz4b+sNMDpH0eZFTr7uxdOtoDWRnhaVNK50bgrrnW5nvbWI0jm5DG9qOoTnIhBzE9xoKVFPD9xgtbdg==
 
 on-finished@~2.3.0:
   version "2.3.0"

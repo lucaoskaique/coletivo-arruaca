@@ -4,18 +4,12 @@ export const Wrapper = styled.main`
   background-color: #ce2024;
   color: #fff;
   width: 100%;
-  height: 100%;
-  padding: 3rem;
+  padding: 5rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-`
-
-export const Logo = styled.img`
-  width: 25rem;
-  margin-bottom: 2rem;
 `
 
 export const Title = styled.h1`
@@ -27,7 +21,34 @@ export const Description = styled.h2`
   font-weight: 400;
 `
 
-export const Illustration = styled.img`
-  margin-top: 3rem;
+export const Logo = styled.img`
   width: min(50rem, 100%);
+`
+export const Illustration = styled.img`
+  width: min(50rem, 100%);
+`
+export const QrCode = styled.img`
+  margin-top: 2rem;
+  width: min(50rem, 100%);
+  border-radius: 5%;
+`
+export const BoxImage = styled.div`
+  display: inline-block;
+  vertical-align: top;
+
+  animation: zoom-in-zoom-out 1s ease infinite;
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+`
+export const Content = styled.div`
+  border-radius: 1rem;
 `

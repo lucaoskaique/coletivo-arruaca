@@ -2,10 +2,19 @@ import * as S from './styles'
 
 const Main = () => (
   <S.Wrapper>
-    <S.Illustration
-      src="/img/arruaca-grave-geral.jpg"
-      alt="Um desenvolvedor de frente para uma tela com código."
+    <S.Logo
+      src="/img/header-arruaca.png"
+      alt="Uma caixa de som do lado esquerdo e uma bandeira anarquista do lado direito."
     />
+    <S.BoxImage>
+      <S.Illustration
+        src="/img/gravegeral-arruaça.png"
+        alt="Texto estilizado escrito GRAVE GERAL."
+      />
+    </S.BoxImage>
+    <S.Content>
+      <S.QrCode src="/img/qrcode-arruaca.jpeg" alt="QrCode divulgação." />
+    </S.Content>
   </S.Wrapper>
 )
 
