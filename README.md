@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c62d1bb0-a696-4d48-8fa1-c3b9114433a4/deploy-status)](https://app.netlify.com/sites/coletivoarruaca/deploys)
 
 This is a [Next.js](https://nextjs.org/) boilerplate.
 ## What is inside?
