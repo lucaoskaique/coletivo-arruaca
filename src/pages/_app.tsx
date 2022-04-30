@@ -10,12 +10,32 @@ function App({ Component, pageProps }: AppProps) {
         <title>Coletivo Arruaça</title>
         <link rel="shortcut icon" href="/img/icon-512.png" />
         <link rel="apple-touch-icon" href="/img/icon-512.png" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/img/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/img/favicon-16x16.png"
+        ></link>
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#06092B" />
         <meta
           name="description"
           content="Coletivo Arruaça, ações, festa na rua - porto alegre - brasil - desde 2014"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="Coletivo Arruaça" />
+        <meta
+          property="og:description"
+          content="Coletivo Arruaça, ações, festa na rua - porto alegre - brasil - desde 2014"
+        />
+        <meta property="og:url" content="https://coletivoarruaca.netlify.app" />
+        <meta property="og:type" content="website" />
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
