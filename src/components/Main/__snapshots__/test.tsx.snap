@@ -14,14 +14,10 @@ exports[`<Main /> should render the heading 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .c1 {
@@ -29,12 +25,12 @@ exports[`<Main /> should render the heading 1`] = `
 }
 
 .c3 {
-  width: min(50rem,100%);
+  width: min(35rem,100%);
 }
 
 .c5 {
-  margin-top: 2rem;
-  width: min(50rem,100%);
+  margin-top: 1rem;
+  width: min(35rem,100%);
   border-radius: 5%;
 }
 
@@ -49,7 +45,7 @@ exports[`<Main /> should render the heading 1`] = `
   border-radius: 1rem;
 }
 
-<main
+<div
   class="c0"
 >
   <img
@@ -75,5 +71,5 @@ exports[`<Main /> should render the heading 1`] = `
       src="/img/qrcode-arruaca.jpeg"
     />
   </div>
-</main>
+</div>
 `

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Wrapper = styled.main`
+export const Wrapper = styled.div`
   background-color: #ce2024;
   color: #fff;
   width: 100%;
@@ -8,8 +8,7 @@ export const Wrapper = styled.main`
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 `
 
 export const Title = styled.h1`
@@ -25,11 +24,11 @@ export const Logo = styled.img`
   width: min(50rem, 100%);
 `
 export const Illustration = styled.img`
-  width: min(50rem, 100%);
+  width: min(35rem, 100%);
 `
 export const QrCode = styled.img`
-  margin-top: 2rem;
-  width: min(50rem, 100%);
+  margin-top: 1rem;
+  width: min(35rem, 100%);
   border-radius: 5%;
 `
 export const BoxImage = styled.div`
