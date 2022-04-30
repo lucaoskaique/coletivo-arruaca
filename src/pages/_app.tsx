@@ -36,6 +36,11 @@ function App({ Component, pageProps }: AppProps) {
         />
         <meta property="og:url" content="https://coletivoarruaca.netlify.app" />
         <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          itemProp="image"
+          content="https://instagram.fpoa8-1.fna.fbcdn.net/v/t51.2885-19/94392931_801073810415854_1567991426174681088_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fpoa8-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=eX44xFw-2gYAX8PbBsL&edm=ABfd0MgBAAAA&ccb=7-4&oh=00_AT8vEWKq0PyTeKpJEldsIcAFTf__nwrsouBUIttEQDB_-A&oe=62737908&_nc_sid=7bff83"
+        />
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
