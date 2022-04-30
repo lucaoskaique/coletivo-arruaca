@@ -16,6 +16,10 @@ const Main = () => (
     </S.BoxImage>
     <S.Content>
       <S.QrCode src="/img/qrcode-arruaca.jpeg" alt="QrCode divulgação." />
+      <S.PixTextImage
+        src="/img/pix-text.png"
+        alt="Texto Pix:coletivoarruaca@gmail.com."
+      />
     </S.Content>
   </S.Wrapper>
 )

@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   background-color: #ce2024;
   color: #fff;
   width: 100%;
-  padding: 5rem;
+  padding: 6rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,10 @@ export const QrCode = styled.img`
   margin-top: 1rem;
   width: min(35rem, 100%);
   border-radius: 5%;
+`
+export const PixTextImage = styled.img`
+  margin-top: 1rem;
+  width: min(35rem, 100%);
 `
 export const BoxImage = styled.div`
   display: inline-block;
@@ -42,4 +46,8 @@ export const BoxImage = styled.div`
 `
 export const Content = styled.div`
   border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `
