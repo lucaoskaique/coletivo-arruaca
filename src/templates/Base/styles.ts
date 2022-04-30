@@ -9,4 +9,5 @@ export const Wrapper = styled.main`
 
 export const Content = styled.div`
   flex: 1 0 auto;
+  display: flex;
 `

@@ -52,11 +52,15 @@ exports[`<Main /> should render the heading 1`] = `
 <div
   class="c0"
 >
-  <img
-    alt="Uma caixa de som do lado esquerdo e uma bandeira anarquista do lado direito."
-    class="c1"
-    src="/img/header-arruaca.png"
-  />
+  <div
+    class=""
+  >
+    <img
+      alt="Uma caixa de som do lado esquerdo e uma bandeira anarquista do lado direito."
+      class="c1"
+      src="/img/header-arruaca.png"
+    />
+  </div>
   <div
     class="c2"
   >
